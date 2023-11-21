@@ -1,0 +1,13 @@
+CONTAINER ID   IMAGE                  COMMAND                  CREATED         STATUS                     PORTS                                       NAMES
+347cc20f8ed2   sampleapp              "/bin/sh -c 'python3…"   9 minutes ago   Up 9 minutes               0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   samplerunning
+296cf213d89a   lamp-userver:1.0       "/bin/sh -c 'apache2…"   6 days ago      Exited (255) 3 hours ago   0.0.0.0:8080->80/tcp                        lamp-userver
+b2c73691dbf0   lltv/apache-test:1.1   "apachectl -DFOREGRO…"   8 days ago      Exited (137) 8 days ago                                                jovial_shannon
+5ce93c000d70   lltv/apache-test:1.0   "/bin/bash"              8 days ago      Exited (137) 8 days ago                                                gifted_wescoff
+6dcb1e295f5c   lltv/apache-test:1.0   "/bin/bash"              8 days ago      Created                                                                angry_darwin
+87a7b04a6bbb   lltv/apache-test:1.0   "/bin/bash"              8 days ago      Exited (137) 8 days ago                                                elastic_albattani
+4fd1f4ae994e   ubuntu                 "/bin/bash"              8 days ago      Exited (137) 8 days ago                                                wonderful_leakey
+6f65490da6c3   nginx                  "/docker-entrypoint.…"   8 days ago      Exited (137) 8 days ago                                                priceless_herschel
+33c8b7c6a943   ubuntu                 "/bin/bash"              8 days ago      Exited (137) 8 days ago                                                sleepy_moore
+5a0d056181a7   ubuntu                 "/bin/bash"              8 days ago      Exited (0) 8 days ago                                                  quizzical_carver
+4798d3b245d2   ubuntu                 "/bin/bash"              8 days ago      Exited (0) 8 days ago                                                  peaceful_sammet
+1b0d684ea837   hello-world            "/hello"                 8 days ago      Exited (0) 8 days ago                                                  epic_feynman
